@@ -236,13 +236,13 @@ system>const>eq_ref>ref>range>index>all
 
 **Extra**
 
-Using filesort
+Using filesort 使用一个外部索引排序
 
-Using temporary
+Using temporary 对查询结果排序时使用临时表
 
-Using index
+Using index 将使用覆盖索引
 
-Using where
+Using where  将在存储引擎检索行后在进行过滤
 
 select tables optimized away
 
